@@ -136,7 +136,7 @@ a:hover {
 
 div#img1 {
     width: 100%;
-    background: url(/imagens/pudim.parallax-900.jpg) no-repeat;
+    background: url(../imagens/pudim.parallax-900.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -155,7 +155,7 @@ div#img1 > p {
 
 div#img3 {
     width: 100%;
-    background: url(/imagens/bombom-paralax.jpg) no-repeat;
+    background: url(../imagens/bombom-paralax.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -247,7 +247,7 @@ td, th {
     width: 100px;
     height: 100px;
     background-color: red;
-    background-image: url(/imagens/instagram200.png);
+    background-image: url(../imagens/instagram200.png);
     background-size: cover;
     border-radius: 50%;
     filter: grayscale(60%);
@@ -266,7 +266,7 @@ td, th {
     margin: auto;
     width: 100px;
     height: 100px;
-    background-image: url(/imagens/whatsapp100.png);
+    background-image: url(../imagens/whatsapp100.png);
     background-size: cover;
     border-radius: 50%;
     filter: grayscale(60%);
@@ -315,7 +315,7 @@ footer {
     margin-top: 200px;
     background-color: rgba(0, 0, 0, 0.768);
     color: white;
-    background-image: url(/imagens/mypuddin.png);
+    background-image: url(../imagens/mypuddin.png);
     background-repeat: no-repeat; 
     background-position: left;
     background-size: contain;
