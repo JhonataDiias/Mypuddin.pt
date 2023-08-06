@@ -30,7 +30,7 @@ header > img {
     display: block;
     width: 50vw;
     height: 150px;
-    max-width: 570px;
+    max-width: 500px;
     align-items: center;
    
 }
@@ -206,7 +206,7 @@ div#img2 {
 }
 
 .flex > div {
-    flex: 1 1 150px;
+    flex: 1 1 100px;
     margin: 10px ;
 
 }
