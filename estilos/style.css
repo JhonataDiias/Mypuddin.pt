@@ -1,0 +1,336 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Passion+One&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+:root {
+    --cor1: #73694C;
+    --cor2: #EBE2B9;
+    --cor3: #D9C196;
+    --cor4: #D6D0AE;
+
+}
+
+
+body, html {
+   
+    background-image: linear-gradient(to left, #EBE2B9, #D9C196);
+    text-align: center;
+    overflow-x: hidden;
+    
+}
+
+header > img {
+    display: block;
+    width: 60vw;
+    height: 200px;
+    max-width: 570px;
+    align-items: center;
+   
+}
+
+
+
+ h1, h2, h3, p {
+    font-family: 'Dancing Script', 'Passion One';
+    font-size: 3em;
+    padding: 30px;
+    margin: 15px;
+}
+
+ h2 {
+    font-size: 2em;
+    padding: 30px;
+    margin: 30px;
+}
+
+h3 {
+    font-size: 1.3em;
+    margin: 15px;
+     }
+
+p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    margin: 35px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.427);
+}
+
+#icones {
+    
+   display: block;
+    text-align: left;
+    width: 59px;
+    height: 50%;
+    background-color: #73694C;
+    color: #D6D0AE;
+    border: 2px solid #D6D0AE;
+    border-radius: 50%;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.378);
+    
+}
+
+#icones:hover , #burguer:hover {
+    background-color: var(--cor2);
+    color: black;
+    transform: translate( 3px, -5px);
+    border: 2px solid rgb(0, 0, 0);
+    transition: transform .3s, border .5s;  
+}
+
+#itens {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;  
+}
+#menu-burguer {
+    position: fixed;
+    top: 0;
+    right: 0;  
+}
+
+#burguer {
+    
+    display: block;
+    text-align: left;
+    width: 59px;
+    height: 50%;
+    background-color: #73694C;
+    color: #D6D0AE;
+    border: 2px solid #D6D0AE;
+    border-radius: 50%;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.378);
+}
+
+.img {
+    width: 100vw;
+    height: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin: auto;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.485);
+}
+
+div#img1 {
+    width: 100%;
+    background: url(/imagens/pudim.parallax-900.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div#img1 > p {
+
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 130px;
+    padding: 30px;
+    text-shadow: 1px 1px 0px rgba(202, 187, 187, 0.455);
+    background-color: rgba(208, 208, 208, 0.557);
+}
+
+div#img3 {
+    width: 100%;
+    background: url(/imagens/bombom-paralax.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div#img3 > p {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 130px;
+    padding: 30px;
+    text-shadow: 1px 1px 0px rgba(202, 187, 187, 0.455);
+    background-color: rgba(208, 208, 208, 0.557);
+}
+
+div#img2 {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    
+}
+
+#espatula {
+    display: inline-block;
+    width: 70px;
+    text-align: right;
+}
+
+.flex  img {
+    max-width: 100%;
+    display: block;
+    margin-left: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    border-radius: 10px;
+    box-shadow: 6px 6px 13px 0 rgba(0, 0, 0, 0.526);
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px ;
+
+}
+#pudim {
+    transition: .35s;
+    cursor: pointer;
+}
+
+.flex:hover > :not(:hover) {
+    opacity: .4;
+    transform: scale(0.9);  
+}
+
+table {
+    width: 80vw;
+    font-size: 1.5em;
+    margin: auto;
+    margin-top: 30px;
+    padding: 6px;
+    border: 1px solid black;
+    background-image: linear-gradient(to left, #73694c58, #ebe2b9bc );
+    margin-bottom: 100px;
+}
+div#tabela1 {
+    overflow-x: auto;
+    
+}
+div#tabela2 {
+    overflow-x: auto;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+ div#instagram a {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    background-image: url(/imagens/instagram200.png);
+    background-size: cover;
+    border-radius: 50%;
+    filter: grayscale(60%);
+    box-shadow: 0 0 5px #3f729b;
+ }
+
+ div#instagram > a:hover {
+    border: 1px solid rgba(255, 255, 255, 0.612);
+    filter: grayscale(0%);
+    box-shadow: 0 0 5px #3f729b, 0 0 25px #3f729b, 0 0 50px #3f729b, 0 0 100px #3f729b, 0 0 125px #3f729b;
+ }
+
+ div#zap a {
+    display: inline-block ;
+    text-align: center;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-image: url(/imagens/whatsapp100.png);
+    background-size: cover;
+    border-radius: 50%;
+    filter: grayscale(60%);
+    margin-bottom: 100px;
+    box-shadow: 0 0 5px #2ca507;
+    
+ }
+
+ div#zap > a:hover {
+    border: 1px solid rgba(255, 255, 255, 0.612);
+    filter: grayscale(0%);
+    box-shadow: 0 0 5px #2ca507, 0 0 25px #2ca507, 0 0 50px #2ca507, 0 0 100px #2ca507, 0 0 125px #2ca507;
+ }
+
+div.logo-preco {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;  
+}
+#frame {
+    width: 70vw;
+    max-width: 80vw;
+    height: 450px;
+    margin: auto;
+    display: relative;
+    border-radius: 25px ;
+    border: 2px dashed rgba(0, 0, 0, 0.621);
+    background: linear-gradient(to right, var(--cor2), var(--cor4));
+}
+
+iframe {
+    width: 70vw;
+    max-width: 80vw;
+}
+
+#maps {
+    padding: 20px;
+    display: inline-block;
+    border-radius: 25px;
+    margin: auto;
+    overflow-x: auto;
+}
+
+footer {
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.768);
+    color: white;
+    background-image: url(/imagens/mypuddin.png);
+    background-repeat: no-repeat; 
+    background-position: left;
+    background-size: contain;
+    filter: grayscale(40%);
+}
+
+footer > p {
+    font-family: 'Dancing Script', 'Passion One';
+    font-size: 1em;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#desenvolvido {
+    font-size: 1.7em;
+}
